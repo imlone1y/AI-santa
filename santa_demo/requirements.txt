@@ -1,0 +1,13 @@
+websockets
+sounddevice
+numpy
+requests
+dotenv
+tiktoken
+openwakeword
+deepgram-sdk==2.12.0
+pyaudio
+pydub
+agents
+openai_agents
+speexdsp
