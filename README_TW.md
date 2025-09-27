@@ -1,6 +1,6 @@
 # AI 聖誕老人
 
-繁體中文| [English](README.md)
+繁體中文 | [English](README.md)
 
 本項目處於開發階段，未經授權禁止使用、販售。
 
