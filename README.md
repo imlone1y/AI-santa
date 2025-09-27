@@ -1,5 +1,7 @@
 # AI Santa Claus
 
+[繁體中文](README_TW.md) | English
+
 This project is currently under development. Unauthorized use or sale is strictly prohibited.
 
 ## Project Introduction
