@@ -26,6 +26,10 @@ The `santa_demo` folder contains the online version, which cannot run offline. T
 
 ### `main.py` Workflow
 
+<img width="1827" height="1347" alt="online workflow" src="https://github.com/user-attachments/assets/c245f999-543a-4ce3-ad8d-57873f2868ab" />
+
+---
+
 ## Offline Version
 
 The `offline_santa` folder contains the offline version, which includes model fine-tuning, speech synthesis, and the complete dialogue pipeline. Model fine-tuning and TTS training were performed on an `RTX 3060 Laptop` and `Intel i9 12th`, tested with `python 3.10.18`.
