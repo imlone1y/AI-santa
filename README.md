@@ -67,7 +67,7 @@ The `offline_santa` folder contains the offline version, which includes model fi
 ### Training Instructions
 
 * The base language model used is `TinyLlama-1.1B-Chat-v1.0`, fine-tuned with SFT and LoRA.
-  Before fine-tuning, modify line 11 in `./santa_train/train_llama.py` with your own `HUGGING_FACE_TOKEN`.
+  Before fine-tuning, modify `line 11` in `./santa_train/train_llama.py` with your own `HUGGING_FACE_TOKEN`.
 
 * The speech model was trained using [coqui TTS](https://github.com/coqui-ai/TTS), with the [alltalk tts](https://github.com/erew123/alltalk_tts) framework.
 
