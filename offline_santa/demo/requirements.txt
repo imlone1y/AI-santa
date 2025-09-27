@@ -1,0 +1,10 @@
+transformers == 4.46.2
+torch
+SpeechRecognition
+faster_whisper
+TTS
+pydub
+pyaudio
+
+# brew install ffmpeg
+# brew install portaudio
