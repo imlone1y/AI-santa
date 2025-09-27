@@ -64,7 +64,7 @@
 
 ### 訓練說明
 
-- 語言模型基底使用 `TinyLlama-1.1B-Chat-v1.0` 進行微調，方法使用SFT 與 LoRA 進行。微調前，需將 `./santa_train/train_llama.py` 第 11 行需改為自己的 `HUGGING_FACE_TOKEN`。
+- 語言模型基底使用 `TinyLlama-1.1B-Chat-v1.0` 進行微調，方法使用SFT 與 LoRA 進行。微調前，需將 `./santa_train/train_llama.py` `第 11 行`需改為自己的 `HUGGING_FACE_TOKEN`。
 - 語音模型訓練使用 [coqui TTS](https://github.com/coqui-ai/TTS)，框架使用 [alltalk tts](https://github.com/erew123/alltalk_tts) 進行模型訓練。
 
 訓練完成後，需執行 `./santa_train/combine.py`，將模型與基底模型合併，才能輸出完整模型供其他元件調用。合併後模型存於 `./santa_train/santa_merged/` 底下，將資料夾取代 `./demo/santa_merged/` 後，方可進行對話。
